@@ -43,6 +43,13 @@ dt_end = 1.0e-2*tau
 dt_start = 1.0e-3
 dt_end = 3.0e-1
 
+print(q1_0, p2_0)
+print(dt_start)
+print(dt_end)
+print(tmax)
+sys.exit()
+
+
 log_dt_start = np.log10(dt_start)
 log_dt_end = np.log10(dt_end)
 log_dt_step = (log_dt_end - log_dt_start)/(nbin-1)
